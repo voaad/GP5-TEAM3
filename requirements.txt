@@ -1,0 +1,13 @@
+torch
+torchvision
+timm
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+mlflow
+requests
+Pillow
+tqdm
+pytorch-tabnet

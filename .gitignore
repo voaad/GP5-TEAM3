@@ -216,3 +216,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Не коммитим данные, тк они тяжелые
+data/
+*.csv
+*.jpg
+*.jpeg
+*.png
+
+# Обученные модели
+models/
+*.pth
+*.pkl
+*.h5
+
+# Mlflow и wandb
+mlruns/
+wandb/
+
+# Окружение
+.env
+
+# Виртуальное окружение
+venv/
+.venv/
