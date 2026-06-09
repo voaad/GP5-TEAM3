@@ -233,10 +233,3 @@ models/
 # Mlflow и wandb
 mlruns/
 wandb/
-
-# Окружение
-.env
-
-# Виртуальное окружение
-venv/
-.venv/
