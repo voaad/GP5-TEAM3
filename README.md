@@ -33,20 +33,32 @@
 
 ### Табличные данные
 
-| Атрибут | Тип | Описание |
-|---------|-----|----------|----------------|
-| `budget` | float | Бюджет фильма (в долларах) |
-| `revenue` | float | Кассовые сборы | 
-| `runtime` | int | Продолжительность (минуты) |
-| `popularity` | float | Популярность (метрика TMDB) |
-| `vote_count` | int | Количество голосов | 
-| `vote_average` | float | Средняя оценка | 
-| `primary_genre` | string | Основной жанр фильма (извлечён из списка) |
-| `n_genres` | int | Количество жанров | 
-| `year` | int | Год выпуска |
-| `original_language` | string | Язык оригинала |
-| `production_countries` | string | Страны-производители | 
-| `production_companies` | string | Кинокомпании |
+| Колонка | Тип | Описание |
+|---------|-----|----------|
+| `id` | int | Уникальный идентификатор фильма |
+| `title` | string | Название фильма |
+| `vote_average` | float | Средняя пользовательская оценка (от 0 до 10) |
+| `vote_count` | int | Количество голосов пользователей |
+| `status` | string | Статус фильма (Released, Post-Production и т.д.) |
+| `release_date` | date | Дата выхода в прокат |
+| `revenue` | float | Кассовые сборы в долларах |
+| `runtime` | int | Продолжительность фильма (минуты) |
+| `adult` | bool | Признак взрослого контента (True/False) |
+| `backdrop_path` | string | Путь к фоновому изображению |
+| `budget` | float | Бюджет фильма в долларах |
+| `homepage` | string | Ссылка на официальный сайт фильма |
+| `imdb_id` | string | Внешний идентификатор на IMDb |
+| `original_language` | string | Язык оригинала (код, например "en", "fr") |
+| `original_title` | string | Оригинальное название фильма |
+| `overview` | string | Краткое текстовое описание сюжета |
+| `popularity` | float | Метрика популярности от TMDB |
+| `poster_path` | string | Путь к постеру (URL относительный) |
+| `tagline` | string | Слоган фильма |
+| `genres` | string | Список жанров через запятую |
+| `production_companies` | string | Список кинокомпаний |
+| `production_countries` | string | Список стран-производителей |
+| `spoken_languages` | string | Список языков дубляжа/субтитров |
+| `keywords` | string | Ключевые слова, связанные с фильмом |
 
 ### Неструктурированные данные (постеры)
 
